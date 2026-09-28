@@ -1,2 +1,2 @@
-# applied-statistics
-Submission for the Applied Statistics
+# Applied Statistics
+Submission for the Applied Statistics module.
