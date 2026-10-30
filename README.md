@@ -2,7 +2,8 @@
 
 This repository contains my submission for the Applied Statistics module.
 The project uses Python and a Jupyter notebook to investigate the distribution
-of petal lengths in the Iris dataset.
+of petal lengths and the relationship between petal length and width in the
+Iris dataset.
 
 ## Quick Look
 
@@ -53,5 +54,6 @@ The notebook uses the pinned versions listed in
 
 The notebook downloads the Iris dataset from the Seaborn data repository,
 checks that it contains 150 flowers and valid `petal_length` values, calculates
-summary statistics, and plots a histogram of all petal lengths. The notebook
-is designed to run from top to bottom in less than three minutes.
+summary statistics, plots a histogram of all petal lengths, and calculates the
+Pearson correlation between `petal_length` and `petal_width` using all 150
+flowers.
