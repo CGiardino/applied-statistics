@@ -25,7 +25,7 @@ To run `problems.ipynb`, you can follow these steps:
 3. Navigate to the cloned repository:
 
    ```bash
-   cd my-applied-statistics
+   cd applied-statistics
    ```
 
 4. Install the required dependencies:
@@ -40,20 +40,23 @@ To run `problems.ipynb`, you can follow these steps:
    jupyter notebook
    ```
 
+   Open `problems.ipynb`, choose **Kernel > Restart Kernel and Run All Cells**,
+   and confirm that all cells execute without errors.
+
 ## Dependencies
 
-The notebook uses the pinned versions listed in
+The notebook uses the packages listed in
 [requirements.txt](./requirements.txt):
 
- - pandas 3.0.6 for loading and describing the data
- - matplotlib 3.11.2 for creating the histogram
- - Jupyter 4.2.5 for running the notebook
- - NumPy 2.5.4 for numerical computing
+ - `pandas` for loading and describing the data
+ - `matplotlib` for creating the histograms and scatter plot
+ - `numpy` for numerical computing and the fitted normal/regression curves
+ - `notebook` and `ipykernel` for running the notebook
 
 ## About the Notebook
 
-The notebook downloads the Iris dataset from the Seaborn data repository,
-checks that it contains 150 flowers and valid `petal_length` values, calculates
-summary statistics, plots a histogram of all petal lengths, and calculates the
-Pearson correlation between `petal_length` and `petal_width` using all 150
-flowers.
+The notebook downloads the Iris dataset from the
+[Seaborn data repository](https://github.com/mwaskom/seaborn-data), checks that
+it contains 150 flowers and valid measurements, calculates summary statistics,
+plots histograms of petal lengths, and calculates the Pearson correlation
+between `petal_length` and `petal_width` using all 150 flowers.

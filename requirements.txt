@@ -1,32 +1,10 @@
-# Interactive Python shell.
-ipython
-# Jupyter notebook/lab support.
+# Jupyter runtime for executing the notebook.
 ipykernel
-# Jupyter lab.
-jupyterlab
-# Jupyter notebook.
+# Jupyter notebook interface.
 notebook
-# Numerical arrays.
+# Numerical arrays used by the analysis.
 numpy
-# Data Frames.
+# Data frames used to load and summarize the data.
 pandas
-# Scientific computing.
-scipy
-# Statistical modeling.
-statsmodels
-# Download financial market data.
-yfinance
-# Plotting.
+# Plotting used for the histograms and scatter plot.
 matplotlib
-# Statistical data visualization.
-seaborn
-# Quantum computing.
-# qiskit[visualization]
-# Quantum simulators.
-# qiskit-aer
-# Machine learning.
-scikit-learn
-# Symbolic mathematics.
-sympy
-# Testing.
-pytest
