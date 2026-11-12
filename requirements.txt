@@ -8,3 +8,5 @@ numpy
 pandas
 # Plotting used for the histograms and scatter plot.
 matplotlib
+# Normal probability plots and the Shapiro-Wilk normality test.
+scipy

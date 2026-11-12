@@ -7,7 +7,8 @@ Iris dataset.
 
 ## Quick Look
 
-- Click [problems.ipynb](./problems.ipynb) to view the analysis and histogram.
+- Click [problems.ipynb](./problems.ipynb) to view the analysis, histograms, and
+  species-wise scatter plots.
 - You can view and run the notebook in [Google Colab](https://colab.research.google.com/).
 
 ## Running the Notebook
@@ -51,6 +52,7 @@ The notebook uses the packages listed in
  - `pandas` for loading and describing the data
  - `matplotlib` for creating the histograms and scatter plot
  - `numpy` for numerical computing and the fitted normal/regression curves
+ - `scipy` for normal probability plots and the Shapiro-Wilk normality test
  - `notebook` and `ipykernel` for running the notebook
 
 ## About the Notebook
@@ -58,5 +60,5 @@ The notebook uses the packages listed in
 The notebook downloads the Iris dataset from the
 [Seaborn data repository](https://github.com/mwaskom/seaborn-data), checks that
 it contains 150 flowers and valid measurements, calculates summary statistics,
-plots histograms of petal lengths, and calculates the Pearson correlation
-between `petal_length` and `petal_width` using all 150 flowers.
+plots histograms of petal lengths, and examines the relationship between
+`petal_length` and `petal_width` both overall and separately for each species.
