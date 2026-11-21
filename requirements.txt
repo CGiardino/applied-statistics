@@ -10,3 +10,7 @@ pandas
 matplotlib
 # Normal probability plots and the Shapiro-Wilk normality test.
 scipy
+# Linear regression model and R-squared score.
+scikit-learn
+# Statistical summary of the regression fit.
+statsmodels
